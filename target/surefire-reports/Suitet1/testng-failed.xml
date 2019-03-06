@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suitet1]">
+  <test thread-count="5" verbose="0" name="Testt1(failed)">
+    <classes>
+      <class name="com.cjc.ReadExcelData.MercuryTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="loginWithValid1"/>
+          <include name="deleteAllCookies"/>
+          <include name="max"/>
+          <include name="applicationUrl"/>
+          <include name="screenshot"/>
+          <include name="closeBrowser"/>
+          <include name="dbConnection"/>
+          <include name="addCookies"/>
+        </methods>
+      </class> <!-- com.cjc.ReadExcelData.MercuryTest -->
+    </classes>
+  </test> <!-- Testt1(failed) -->
+</suite> <!-- Failed suite [Suitet1] -->
